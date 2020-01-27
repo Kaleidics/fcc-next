@@ -1,0 +1,22 @@
+{
+    "name": "netnext",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "next",
+        "build": "next build && next export",
+        "start": "serve ./out"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "contentful": "^7.13.1",
+        "dotenv": "^8.2.0",
+        "next": "^9.2.1",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "serve": "^11.3.0"
+    }
+}
