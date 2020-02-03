@@ -8,7 +8,7 @@ const client = require('contentful').createClient({
     accessToken: ACCESS
 });
 
-function Header() {
+function RoundedButton() {
     async function fetchEntries() {
         const entries = await client.getEntries();
         if (entries.items) return entries.items;
@@ -31,30 +31,9 @@ function Header() {
 
     return (
         <header className='header'>
-            <h1 className='heading-primary'>{title}</h1>
-            <p className='tagline'>{tagline}</p>
-            <p className='overview'>{overview}</p>
+            
             <style jsx>{`
-                .header {
-                    padding: 0 20px;
-                    max-width: 1024px;
-                    margin: 0 auto;
-                    font-family: 'Source Sans Pro', sans-serif;
-                }
-
-                .heading-primary {
-                  font-size: 40px;
-                }
-
-                .tagline {
-                  font-size: 20px;
-                  font-weight: 600;
-                }
-
-                .overview {
-                  font-size: 16px;
-                  line-height: 24px;
-                }
+                
             `}</style>
         </header>
     );

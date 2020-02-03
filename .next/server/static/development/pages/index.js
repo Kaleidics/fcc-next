@@ -111,8 +111,8 @@ var _jsxFileName = "C:\\Users\\Eddie\\Documents\\GitHub\\next-projects\\fcc-next
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-const SPACE = "0iiyikmirmao";
-const ACCESS = "SExRELSl5hRWLsh3USyHjv60GDz9obiRa0p2XvHhHSE";
+const SPACE = "cukbb6lze8bf";
+const ACCESS = "79Xvr4uHixmPTgp_oTOFSkrhmE0v8Ny4mibURHQi9Ms";
 
 const client = __webpack_require__(/*! contentful */ "contentful").createClient({
   space: SPACE,
@@ -142,37 +142,37 @@ function Header() {
   let tagline = content.length > 0 ? content[0].fields.tagline : null;
   let overview = content.length > 0 ? content[0].fields.overview : null;
   return __jsx("header", {
-    className: "jsx-4007894895" + " " + 'header',
+    className: "jsx-3580851623" + " " + 'header',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
     },
     __self: this
   }, __jsx("h1", {
-    className: "jsx-4007894895" + " " + 'heading-primary',
+    className: "jsx-3580851623" + " " + 'heading-primary',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: this
   }, title), __jsx("p", {
-    className: "jsx-4007894895" + " " + 'tagline',
+    className: "jsx-3580851623" + " " + 'tagline',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
   }, tagline), __jsx("p", {
-    className: "jsx-4007894895" + " " + 'overview',
+    className: "jsx-3580851623" + " " + 'overview',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
   }, overview), __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "4007894895",
+    id: "3580851623",
     __self: this
-  }, ".header.jsx-4007894895{padding:0 20px;max-width:1024px;margin:0 auto;font-family:'Source Sans Pro',sans-serif;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRWRkaWVcXERvY3VtZW50c1xcR2l0SHViXFxuZXh0LXByb2plY3RzXFxmY2MtbmV4dFxcY29tcG9uZW50c1xcaGVhZGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW9Dd0IsQUFHb0MsZUFDRSxpQkFDSCxjQUM0Qix5Q0FDOUMiLCJmaWxlIjoiQzpcXFVzZXJzXFxFZGRpZVxcRG9jdW1lbnRzXFxHaXRIdWJcXG5leHQtcHJvamVjdHNcXGZjYy1uZXh0XFxjb21wb25lbnRzXFxoZWFkZXIuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnO1xyXG5cclxuY29uc3QgU1BBQ0UgPSBwcm9jZXNzLmVudi5DT05URU5URlVMX1NQQUNFX0lEO1xyXG5jb25zdCBBQ0NFU1MgPSBwcm9jZXNzLmVudi5DT05URU5URlVMX0FDQ0VTU19UT0tFTjtcclxuXHJcbmNvbnN0IGNsaWVudCA9IHJlcXVpcmUoJ2NvbnRlbnRmdWwnKS5jcmVhdGVDbGllbnQoe1xyXG4gICAgc3BhY2U6IFNQQUNFLFxyXG4gICAgYWNjZXNzVG9rZW46IEFDQ0VTU1xyXG59KTtcclxuXHJcbmZ1bmN0aW9uIEhlYWRlcigpIHtcclxuICAgIGFzeW5jIGZ1bmN0aW9uIGZldGNoRW50cmllcygpIHtcclxuICAgICAgICBjb25zdCBlbnRyaWVzID0gYXdhaXQgY2xpZW50LmdldEVudHJpZXMoKTtcclxuICAgICAgICBpZiAoZW50cmllcy5pdGVtcykgcmV0dXJuIGVudHJpZXMuaXRlbXM7XHJcbiAgICAgICAgY29uc29sZS5sb2coYEVycm9yIGdldHRpbmcgRW50cmllcyBmb3IgJHtjb250ZW50VHlwZS5uYW1lfS5gKTtcclxuICAgIH1cclxuXHJcbiAgICBjb25zdCBbY29udGVudCwgc2V0Q29udGVudF0gPSB1c2VTdGF0ZShbXSk7XHJcblxyXG4gICAgdXNlRWZmZWN0KCgpID0+IHtcclxuICAgICAgICBhc3luYyBmdW5jdGlvbiBnZXRDb250ZW50KCkge1xyXG4gICAgICAgICAgICBjb25zdCBhbGxDb250ZW50ID0gYXdhaXQgZmV0Y2hFbnRyaWVzKCk7XHJcbiAgICAgICAgICAgIHNldENvbnRlbnQoWy4uLmFsbENvbnRlbnRdKTtcclxuICAgICAgICB9XHJcbiAgICAgICAgZ2V0Q29udGVudCgpO1xyXG4gICAgfSwgW10pO1xyXG5cclxuICAgIGxldCB0aXRsZSA9IGNvbnRlbnQubGVuZ3RoID4gMCA/IGNvbnRlbnRbMF0uZmllbGRzLnRpdGxlIDogbnVsbDtcclxuICAgIGxldCB0YWdsaW5lID0gY29udGVudC5sZW5ndGggPiAwID8gY29udGVudFswXS5maWVsZHMudGFnbGluZSA6IG51bGw7XHJcbiAgICBsZXQgb3ZlcnZpZXcgPSBjb250ZW50Lmxlbmd0aCA+IDAgPyBjb250ZW50WzBdLmZpZWxkcy5vdmVydmlldyA6IG51bGw7XHJcblxyXG4gICAgcmV0dXJuIChcclxuICAgICAgICA8aGVhZGVyIGNsYXNzTmFtZT0naGVhZGVyJz5cclxuICAgICAgICAgICAgPGgxIGNsYXNzTmFtZT0naGVhZGluZy1wcmltYXJ5Jz57dGl0bGV9PC9oMT5cclxuICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSd0YWdsaW5lJz57dGFnbGluZX08L3A+XHJcbiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0nb3ZlcnZpZXcnPntvdmVydmlld308L3A+XHJcbiAgICAgICAgICAgIDxzdHlsZSBqc3g+e2BcclxuICAgICAgICAgICAgICAgIC5oZWFkZXIge1xyXG4gICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDAgMjBweDtcclxuICAgICAgICAgICAgICAgICAgICBtYXgtd2lkdGg6IDEwMjRweDtcclxuICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDAgYXV0bztcclxuICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseTogJ1NvdXJjZSBTYW5zIFBybycsIHNhbnMtc2VyaWY7XHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICA8L2hlYWRlcj5cclxuICAgICk7XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IEhlYWRlcjtcclxuIl19 */\n/*@ sourceURL=C:\\\\Users\\\\Eddie\\\\Documents\\\\GitHub\\\\next-projects\\\\fcc-next\\\\components\\\\header.js */"));
+  }, ".header.jsx-3580851623{padding:0 20px;max-width:1024px;margin:0 auto;font-family:'Source Sans Pro',sans-serif;}.heading-primary.jsx-3580851623{font-size:40px;}.tagline.jsx-3580851623{font-size:20px;font-weight:600;}.overview.jsx-3580851623{font-size:16px;line-height:24px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcRWRkaWVcXERvY3VtZW50c1xcR2l0SHViXFxuZXh0LXByb2plY3RzXFxmY2MtbmV4dFxcY29tcG9uZW50c1xcaGVhZGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW9Dd0IsQUFHb0MsQUFPRixBQUlBLEFBS0EsZUFmSSxBQU9yQixBQUlrQixBQUtDLGdCQUpuQixDQVhrQixBQWdCbEIsY0FmOEMseUNBQzlDIiwiZmlsZSI6IkM6XFxVc2Vyc1xcRWRkaWVcXERvY3VtZW50c1xcR2l0SHViXFxuZXh0LXByb2plY3RzXFxmY2MtbmV4dFxcY29tcG9uZW50c1xcaGVhZGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JztcclxuXHJcbmNvbnN0IFNQQUNFID0gcHJvY2Vzcy5lbnYuQ09OVEVOVEZVTF9TUEFDRV9JRDtcclxuY29uc3QgQUNDRVNTID0gcHJvY2Vzcy5lbnYuQ09OVEVOVEZVTF9BQ0NFU1NfVE9LRU47XHJcblxyXG5jb25zdCBjbGllbnQgPSByZXF1aXJlKCdjb250ZW50ZnVsJykuY3JlYXRlQ2xpZW50KHtcclxuICAgIHNwYWNlOiBTUEFDRSxcclxuICAgIGFjY2Vzc1Rva2VuOiBBQ0NFU1NcclxufSk7XHJcblxyXG5mdW5jdGlvbiBIZWFkZXIoKSB7XHJcbiAgICBhc3luYyBmdW5jdGlvbiBmZXRjaEVudHJpZXMoKSB7XHJcbiAgICAgICAgY29uc3QgZW50cmllcyA9IGF3YWl0IGNsaWVudC5nZXRFbnRyaWVzKCk7XHJcbiAgICAgICAgaWYgKGVudHJpZXMuaXRlbXMpIHJldHVybiBlbnRyaWVzLml0ZW1zO1xyXG4gICAgICAgIGNvbnNvbGUubG9nKGBFcnJvciBnZXR0aW5nIEVudHJpZXMgZm9yICR7Y29udGVudFR5cGUubmFtZX0uYCk7XHJcbiAgICB9XHJcblxyXG4gICAgY29uc3QgW2NvbnRlbnQsIHNldENvbnRlbnRdID0gdXNlU3RhdGUoW10pO1xyXG5cclxuICAgIHVzZUVmZmVjdCgoKSA9PiB7XHJcbiAgICAgICAgYXN5bmMgZnVuY3Rpb24gZ2V0Q29udGVudCgpIHtcclxuICAgICAgICAgICAgY29uc3QgYWxsQ29udGVudCA9IGF3YWl0IGZldGNoRW50cmllcygpO1xyXG4gICAgICAgICAgICBzZXRDb250ZW50KFsuLi5hbGxDb250ZW50XSk7XHJcbiAgICAgICAgfVxyXG4gICAgICAgIGdldENvbnRlbnQoKTtcclxuICAgIH0sIFtdKTtcclxuXHJcbiAgICBsZXQgdGl0bGUgPSBjb250ZW50Lmxlbmd0aCA+IDAgPyBjb250ZW50WzBdLmZpZWxkcy50aXRsZSA6IG51bGw7XHJcbiAgICBsZXQgdGFnbGluZSA9IGNvbnRlbnQubGVuZ3RoID4gMCA/IGNvbnRlbnRbMF0uZmllbGRzLnRhZ2xpbmUgOiBudWxsO1xyXG4gICAgbGV0IG92ZXJ2aWV3ID0gY29udGVudC5sZW5ndGggPiAwID8gY29udGVudFswXS5maWVsZHMub3ZlcnZpZXcgOiBudWxsO1xyXG5cclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPGhlYWRlciBjbGFzc05hbWU9J2hlYWRlcic+XHJcbiAgICAgICAgICAgIDxoMSBjbGFzc05hbWU9J2hlYWRpbmctcHJpbWFyeSc+e3RpdGxlfTwvaDE+XHJcbiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0ndGFnbGluZSc+e3RhZ2xpbmV9PC9wPlxyXG4gICAgICAgICAgICA8cCBjbGFzc05hbWU9J292ZXJ2aWV3Jz57b3ZlcnZpZXd9PC9wPlxyXG4gICAgICAgICAgICA8c3R5bGUganN4PntgXHJcbiAgICAgICAgICAgICAgICAuaGVhZGVyIHtcclxuICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiAwIDIwcHg7XHJcbiAgICAgICAgICAgICAgICAgICAgbWF4LXdpZHRoOiAxMDI0cHg7XHJcbiAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAwIGF1dG87XHJcbiAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdTb3VyY2UgU2FucyBQcm8nLCBzYW5zLXNlcmlmO1xyXG4gICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgIC5oZWFkaW5nLXByaW1hcnkge1xyXG4gICAgICAgICAgICAgICAgICBmb250LXNpemU6IDQwcHg7XHJcbiAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgLnRhZ2xpbmUge1xyXG4gICAgICAgICAgICAgICAgICBmb250LXNpemU6IDIwcHg7XHJcbiAgICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbiAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgLm92ZXJ2aWV3IHtcclxuICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxNnB4O1xyXG4gICAgICAgICAgICAgICAgICBsaW5lLWhlaWdodDogMjRweDtcclxuICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgIDwvaGVhZGVyPlxyXG4gICAgKTtcclxufVxyXG5cclxuZXhwb3J0IGRlZmF1bHQgSGVhZGVyO1xyXG4iXX0= */\n/*@ sourceURL=C:\\\\Users\\\\Eddie\\\\Documents\\\\GitHub\\\\next-projects\\\\fcc-next\\\\components\\\\header.js */"));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -197,8 +197,8 @@ var _jsxFileName = "C:\\Users\\Eddie\\Documents\\GitHub\\next-projects\\fcc-next
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-const SPACE = "0iiyikmirmao";
-const ACCESS = "SExRELSl5hRWLsh3USyHjv60GDz9obiRa0p2XvHhHSE";
+const SPACE = "cukbb6lze8bf";
+const ACCESS = "79Xvr4uHixmPTgp_oTOFSkrhmE0v8Ny4mibURHQi9Ms";
 
 const client = __webpack_require__(/*! contentful */ "contentful").createClient({
   space: SPACE,
@@ -395,8 +395,8 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 
-const SPACE = "0iiyikmirmao";
-const ACCESS = "SExRELSl5hRWLsh3USyHjv60GDz9obiRa0p2XvHhHSE";
+const SPACE = "cukbb6lze8bf";
+const ACCESS = "79Xvr4uHixmPTgp_oTOFSkrhmE0v8Ny4mibURHQi9Ms";
 
 const client = __webpack_require__(/*! contentful */ "contentful").createClient({
   space: SPACE,
