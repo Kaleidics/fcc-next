@@ -25,8 +25,9 @@ function Navbar() {
         getContent();
     }, []);
 
-    let imageSrc = content.length > 0 ? content[0].fields.navbarLogo.fields.file.url : null;
-    let imageAlt = content.length > 0 ? content[0].fields.navbarLogo.fields.description : null;
+    console.log(content)
+    let imageSrc = content.length > 0 ? content[0].fields.mainlogo.fields.file.url : null;
+    let imageAlt = content.length > 0 ? content[0].fields.mainlogo.fields.description : null;
 
     return (
         <div className='navbar'>

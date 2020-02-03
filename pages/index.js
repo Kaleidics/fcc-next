@@ -1,7 +1,10 @@
 import { useEffect, useState } from 'react';
 import Head from 'next/head';
+
 import Post from '../components/post';
+
 import Navbar from '../components/navbar'
+import Header from '../components/header';
 
 const SPACE = process.env.CONTENTFUL_SPACE_ID;
 const ACCESS = process.env.CONTENTFUL_ACCESS_TOKEN;
@@ -32,8 +35,11 @@ function HomePage() {
         <>
             <Head>
                 <title>freeCodeCamp - Elk Grove</title>
+                <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap" rel="stylesheet" />
+
             </Head>
             <Navbar />
+            <Header />
 
             <style jsx global>{`
                 html {

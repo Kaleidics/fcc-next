@@ -4797,7 +4797,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\Eddie\\Documents\\GitHub\\fcc-next\\.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "C:\\Users\\Eddie\\Documents\\GitHub\\next-projects\\fcc-next\\.next");
       return error;
     }
   };
